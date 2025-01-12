@@ -60,3 +60,11 @@ The results include a list of files containing the search term and the number of
 ### Cleanup:
 
 The script automatically releases the Word COM object after the search process. However, if the script is interrupted, ensure that the Word application is closed manually to free up system resources.
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[PShell-img]: https://img.shields.io/badge/PowerShell-5391FE?style=plastic&logo=powershell&logoColor=5391FEf&labelColor=ffffff
+[PShell-url]: https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/
+[Word-img]: https://img.shields.io/badge/Microsoft_Word-2B579A?style=plastic&logo=microsoft-word&logoColor=2B579A&labelColor=ffffff
+[Word-url]: https://support.microsoft.com/en-us/word
