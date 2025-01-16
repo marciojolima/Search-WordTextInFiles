@@ -53,8 +53,6 @@ Search-WordTextInFiles -Path "C:\Path\To\Documents" -SearchText "hidden text"
 The results include a list of files containing the search term and the number of occurrences in each file.
 
 ### Notes:
-
-## Notes:
 - This script is particularly useful for finding **hidden text** formatted as such in Word documents, which cannot be located using the standard File Explorer search. However, it also locates **visible text**, making it versatile for various use cases.
 - Only `.docx`, `.docm`, and `.doc` file formats are supported.
 - The script operates in read-only mode, ensuring no changes are made to the original documents.
