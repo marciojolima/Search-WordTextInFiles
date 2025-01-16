@@ -114,9 +114,3 @@ function Search-WordTextInFiles {
         $checker.Dispose()
     }
 }
-
-# Exemplo de uso:
-# .\BuscaNoWord.ps1
-# Search-WordTextInFiles -Path "S:\Suporte\Projetos\PowerShell\BuscaNoWord" -SearchText "texto oculto"
-# Ou pelo pipeline:
-# "C:\caminho\para\sua\pasta\exemplo.docx" | Search-WordTextInFiles -SearchText "texto"
